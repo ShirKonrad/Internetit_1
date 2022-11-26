@@ -1,5 +1,4 @@
 import {
-  Button,
   Dialog,
   DialogActions,
   DialogContent,
@@ -10,14 +9,7 @@ import "./DetailsPopup.css";
 
 function DetailsPopup(props) {
   return (
-    <Dialog
-      open={props.isOpen}
-      onClose={props.handleClose}
-      //   aria-labelledby="alert-dialog-title"
-      //   aria-describedby="alert-dialog-description"
-      //   style={{ width: "50rem" }}
-      fullWidth
-    >
+    <Dialog open={props.isOpen} onClose={props.handleClose} fullWidth>
       <DialogTitle
         sx={{
           alignSelf: "center",
