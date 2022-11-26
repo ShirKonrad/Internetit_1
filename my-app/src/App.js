@@ -75,10 +75,6 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [selected, setSelected] = useState(null);
 
-  // const handleClose = () => {
-  //   setIsOpen(false);
-  // };
-
   return (
     <div className="app-list">
       <h2>Food Options</h2>
